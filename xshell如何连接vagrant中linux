@@ -1,0 +1,11 @@
+不适用密码登陆：
+输入用户名vagrant
+导入密钥路径C:\Users\Administrator\.vagrant\machines\default\virtualbox\private_key
+不用输入密码，直接登陆即可。
+
+
+要想使用密码登录：
+可以修改/etc/ssh/sshd_conf中的PasswordAuthentication no改为PasswordAuthentication yes。
+然后重启sshd服务(service sshd restart)。  
+用户名 root
+密码 vagrant
